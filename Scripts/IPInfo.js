@@ -27,4 +27,4 @@ var subtitle =''+ValidCheck(obj['city'])+'-'+'('+ValidCheck(obj['isp'])+')'+'
 var ip = obj['ip'];
 var isp = obj['isp'];
 var description = obj['country_name'] + '-' +ValidCheck(obj['city']) + '\n' + obj['type'] + '\n' + obj['ip'];
-$done({title, subtitle, ip, description});
+$done({title, subtitle, ip, isp, description});
